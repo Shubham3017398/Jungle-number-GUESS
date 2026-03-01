@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jungle Guess | Survival Game</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0b1a0e;
+            color: #f0f4c3;
+            text-align: center;
+        }
+        .hero {
+            padding: 100px 20px;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        h1 { font-size: 3.5rem; color: #a2d149; margin-bottom: 10px; }
+        p { font-size: 1.2rem; max-width: 600px; margin: 0 auto 30px; }
+        
+        .download-btn {
+            background-color: #a2d149;
+            color: #0b1a0e;
+            padding: 15px 40px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: 0.3s;
+            display: inline-block;
+        }
+        .download-btn:hover {
+            background-color: #d7ccc8;
+            transform: scale(1.05);
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: #1b2e1f;
+            padding: 20px;
+            border-radius: 15px;
+            width: 250px;
+            border: 1px solid #3e2723;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <h1>🌿 JUNGLE GUESS 🌿</h1>
+        <p>A high-stakes survival number-guessing game. Can you survive the jungle or will you trigger the explosion?</p>
+        <a href="jungle_game_v1.zip" class="download-btn">📥 DOWNLOAD GAME</a>
+    </section>
+
+    <section class="features">
+        <div class="card">
+            <h3>🔊 Immersive Sound</h3>
+            <p>Real jungle atmosphere and satisfying mechanical click sound effects.</p>
+        </div>
+        <div class="card">
+            <h3>🔥 3 Difficulties</h3>
+            <p>From Easy survival to Hardcore jungle exploration.</p>
+        </div>
+        <div class="card">
+            <h3>🎆 Visual FX</h3>
+            <p>Hand-coded firework celebrations and massive screen-shake explosions.</p>
+        </div>
+    </section>
+<script src="script.js"></script>
+</body>
+</html>
